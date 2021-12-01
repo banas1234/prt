@@ -1,6 +1,9 @@
 html,
 body {
 	height: 100%;
+	font-family: 'Work Sans', sans-serif;
+	
+	color: #E4E4E4;
 }
 
 .wrapper {
@@ -17,11 +20,15 @@ body {
 }
 
 .container{
-  max-width: 1200px;
+  max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
 }
-
+a{
+	color: #E4E4E4;
+	text-decoration: none;
+	text-transform: uppercase;
+}
 
 
 

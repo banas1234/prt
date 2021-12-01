@@ -4,17 +4,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>My portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
 
   <header class="header">
-    <nav></nav>
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <a href="#"><img src="images/logo.svg" alt="">exzo73</a>
+        </div>
+        <nav class="header__navigation">
+          <ul class="header__nav">
+            <li class="header__link"><a href="#">Home</a></li>
+            <li class="header__link"><a href="#">About me</a></li>
+            <li class="header__link"><a href="#">Portfolio</a></li>
+            <li class="header__link"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
   <div class="wrapper">
-    <main class="main"></main>
+    <main class="main">
+      <section class="about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__descriptions">
+              <h4 class="about__hello">Hello</h4>
+              <h3 class="about__name">I’m <a href="https://github.com/banas1234/prt">Nikita Exzo</a> </h3>
+              <p class="about__sub">I am a front-end and back-end developer.</p>
+              <button class="about__btn">Contact me</button>
+            </div>
+            <div class="about__photo">
+              <img class="about__ellipse" src="images/Ellipse.png" alt="">
+              <img class="about__me" src="images/me.png" alt="">
+              <ul class="about__skill">
+                <li class="about__item about__item1">HTML</li>
+                <li class="about__item about__item2">CSS</li>
+                <li class="about__item about__item3">JS</li>
+                <li class="about__item about__item4">REACT</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer class="footer"></footer>
   </div>
 
